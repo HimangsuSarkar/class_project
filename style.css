@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&display=swap');
 
 * {
   margin: 0;
@@ -16,7 +17,7 @@ body {
   font-weight: 400;
   height: 100vh;
   color: #333;
-  background-image: linear-gradient(to top left, #753682 0%, #bf2e34 100%);
+  background-image: linear-gradient(to top left, #663399 0%, #cc3333 100%);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -59,7 +60,7 @@ main {
 .score {
   font-size: 8rem;
   font-weight: 300;
-  color: #c7365f;
+  color: #cc3333;
   margin-bottom: auto;
 }
 
@@ -78,10 +79,10 @@ main {
 }
 
 .current {
-  background-color: #c7365f;
+  background-color: #cc3333;
   opacity: 0.8;
   border-radius: 9px;
-  color: #fff;
+  color: #FFF;
   width: 65%;
   padding: 2rem;
   text-align: center;
@@ -131,12 +132,15 @@ main {
 
 .btn--new {
   top: 4rem;
+  font-family: 'Caveat', cursive;
 }
 .btn--roll {
   top: 39.3rem;
+  font-family: 'Caveat', cursive;
 }
 .btn--hold {
   top: 46.1rem;
+  font-family: 'Caveat', cursive;
 }
 
 .btn:active {

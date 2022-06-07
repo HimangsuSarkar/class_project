@@ -33,3 +33,4 @@ const init = function () {
   player1El.classList.remove('player--active');
 };
 init();
+

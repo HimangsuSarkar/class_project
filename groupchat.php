@@ -27,9 +27,6 @@
 
       if($insertcomment_query)
       {
-        ?>
-          <script type="text/javascript">alert("Comment Post Succesfull")</script>
-        <?php
         header("refresh:1;url=groupchat.php");
       }
       else 
